@@ -11,10 +11,10 @@ app = Flask(__name__)
 
 
 @app.route("/cities_by_states", strict_slashes=False)
-def cities_by_states():
+def citystate():
     """
     Routes:
-    /cities_by_states: display a HTML page: (inside the tag BODY)
+    /citystate: display a HTML page: (inside the tag BODY)
     H1 tag: “States”
     UL tag: with the list of all State objects present
     in DBStorage sorted by name (A->Z) tip

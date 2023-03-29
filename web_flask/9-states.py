@@ -25,7 +25,7 @@ def states():
 
 
 @app.route("/states/<id>", strict_slashes=False)
-def states_id(id):
+def statesid(id):
     """
     Routes:
     /states/<id>: display a HTML page: (inside the tag BODY)
